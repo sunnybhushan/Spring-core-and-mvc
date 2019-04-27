@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BeanFactoryRunner.java&apos; to &apos;springsApp4/src/main/java/org.spiders.springsApp&apos;&#x0D;&#x0A;- Original project: &apos;SpringAnnotation&apos;&#x0D;&#x0A;- Destination element: &apos;springsApp4/src/main/java/org.spiders.springsApp&apos;&#x0D;&#x0A;- Original element: &apos;org.spiders.springsApp.BeanFactoryRunner.java&apos;" description="Copy compilation unit" destination="=springsApp4/src\/main\/java&lt;org.spiders.springsApp" element1="/src\/main\/java&lt;org.spiders.springsApp{BeanFactoryRunner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1553827121222" units="1" version="1.0"/>
+</session>

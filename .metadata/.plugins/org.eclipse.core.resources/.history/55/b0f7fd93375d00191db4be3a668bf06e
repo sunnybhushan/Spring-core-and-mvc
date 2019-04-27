@@ -1,0 +1,16 @@
+package upcasting;
+
+public class Apple extends Fruit
+
+{
+	void xyc()
+	{
+		System.out.println("he  siflds");
+	}
+	
+	public static void main(String[] args) 
+	{
+		Fruit f= new Apple();
+		f.abc();
+	}
+}

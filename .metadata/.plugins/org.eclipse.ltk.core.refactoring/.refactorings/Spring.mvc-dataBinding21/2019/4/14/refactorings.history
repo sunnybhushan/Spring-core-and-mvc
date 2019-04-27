@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Spring.mvc-dataBinding21/WebContent/WEB-INF/META-INF/View&apos; to &apos;Views&apos;" description="Rename resource &apos;View&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/META-INF/View" name="Views" stamp="1554346677082" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Spring.mvc-dataBinding21/WebContent/WEB-INF/META-INF/Views&apos; to &apos;views&apos;" description="Rename resource &apos;Views&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/META-INF/Views" name="views" stamp="1554346730329" updateReferences="true"/>
+</session>

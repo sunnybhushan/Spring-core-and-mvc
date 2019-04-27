@@ -1,0 +1,48 @@
+package String;
+
+import java.util.Scanner;
+
+public class WordToSen 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("enter the number you want to print");
+		Scanner sc = new Scanner(System.in);
+		int no=sc.nextInt();
+		String st;
+		nToW(no/10000000, "Crore");
+		nToW(no/100000 % 100, "Lakh");
+		nToW(no/1000 % 100, "Thousand");
+		nToW(no/100 % 10, "Hundred");
+		nToW(no%100, "");
+		
+		
+		
+	}
+
+	private static void nToW(int no,String st) 
+	{
+		
+		String one[]= {"", "One","Two","Three","Four","Five","Six","Seven","Eight ","Nine","Ten","Eleven",
+				"Twelve","Thirteen","Forteen","Fifteen","Sixteen","Seventeen","Eighteen","Ninteen"};
+		String two[]= {"","","Twenty ","Thirty ","Forty ","Fifty ","Sixty ","Seventy ","Eighty ","Ninty "};
+		
+		if(no<20)
+			System.out.print(one[no]);
+		else
+			System.out.print(two[no/10]+one[no%10]);
+		
+		if (no != 0) {
+			System.out.print(st + " ");
+		}
+			
+			
+	}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<bean id="sc" class="org.spiders.School" autowire="byName">
+
+		<property name="camera" value="twenty"></property>
+		<property name="screen" value="LED"></property>
+		<property name="battery" value="2333v"></property>
+
+		<property name="component">
+			<list>
+				<value>hard-drive</value>
+				<value>mouse</value>
+				<value>pen drive</value>
+			</list>
+
+
+		</property>
+
+		<!-- <property name="screen" ref="stud"></property> -->
+
+
+	</bean>
+
+	<bean id="s" class="org.spiders.Student">
+
+		<property name="id" value="2"></property>
+		<property name="name" value="LED"></property>
+		<property name="place" value="2333v"></property>
+	</bean>
+
+
+<!-- 	<bean id="stud1" class="org.spiders.Student">
+
+		<property name="id" value="3"></property>
+		<property name="name" value="abc"></property>
+		<property name="place" value="patna"></property>
+	</bean>
+ -->
+
+
+
+
+</beans>
+
+
+
+
+
+<!-- <constructor-arg index="0" value="Ishan school" ></constructor-arg> 
+	<constructor-arg index="1" value="led"></constructor-arg> <constructor-arg 
+	index="2" value="2000v" ></constructor-arg> -->
+

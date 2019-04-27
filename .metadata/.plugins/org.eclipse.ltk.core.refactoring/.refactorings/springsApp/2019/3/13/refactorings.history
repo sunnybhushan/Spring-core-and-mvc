@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;Spring/src/org.spiders&apos;&#x0D;&#x0A;- Original project: &apos;springsApp&apos;&#x0D;&#x0A;- Destination element: &apos;Spring/src/org.spiders&apos;&#x0D;&#x0A;- Original element: &apos;org.spiders.springsApp.Student.java&apos;" description="Copy compilation unit" destination="=Spring/src&lt;org.spiders" element1="/src\/main\/java&lt;org.spiders.springsApp{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1553655943175" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package upcasting;
+
+public class Apple extends Fruit
+
+{
+	void abc()
+	{
+		System.out.println("he  siflds");
+	}
+	
+		
+		
+	
+}

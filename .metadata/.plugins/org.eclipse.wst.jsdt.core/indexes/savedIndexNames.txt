@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+D:\sprinh\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3035123898.index
+3456827942.index
+1215876884.index
+482654118.index
+3741882677.index
+2032310650.index
+3604249424.index
+2503353807.index
+1384097341.index

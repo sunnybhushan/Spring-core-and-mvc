@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SunnySingh/bin/com/btm/jsp/Strudent.class&apos; to &apos;Student.class&apos;" description="Rename resource &apos;Strudent.class&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="bin/com/btm/jsp/Strudent.class" name="Student.class" stamp="1551810137145" updateReferences="true"/>
+</session>

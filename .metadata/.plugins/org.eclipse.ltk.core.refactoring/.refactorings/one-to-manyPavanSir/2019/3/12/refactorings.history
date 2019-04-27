@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;one-to-many/src/hibernate.cfg.xml&apos; to &apos;Hibernate.cfg.xml&apos;" description="Rename resource &apos;hibernate.cfg.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hibernate.cfg.xml" name="Hibernate.cfg.xml" stamp="1553252997421" updateReferences="true"/>
+</session>

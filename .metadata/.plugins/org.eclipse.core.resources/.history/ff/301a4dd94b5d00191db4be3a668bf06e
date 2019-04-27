@@ -1,0 +1,11 @@
+package upcasting;
+
+public class Fruit
+{
+	public static void main(String[] args) {
+		Apple a= new Apple();
+		a.setA(12);
+		System.out.println(a.getA());
+	}
+	
+}

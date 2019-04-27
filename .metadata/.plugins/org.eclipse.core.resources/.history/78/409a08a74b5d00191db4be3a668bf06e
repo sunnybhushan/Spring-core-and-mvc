@@ -1,0 +1,17 @@
+package upcasting;
+
+public class Apple 
+{
+	private int  a=10;
+	
+	public int seta(int a)
+	{
+		
+	}
+	
+	public void setA()
+	{
+		this.a=a;
+	}
+
+}

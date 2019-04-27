@@ -1,0 +1,9 @@
+package upcasting;
+
+public class Apple 
+{
+	private int  a=10;
+	
+	
+	
+}
